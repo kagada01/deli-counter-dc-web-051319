@@ -29,7 +29,7 @@ katz_deli = []
       puts "There is nobody waiting to be served!"
   else
       next_up = other_deli.shift()
-      puts "Currently serving #{next_up}."
+      puts "Currently serving #{other_deli.shift()}."
       end
   end
 end
