@@ -27,7 +27,7 @@ def now_serving(other_deli)
 katz_deli = []
   if (other_deli.length > 0)
       other_deli.each do |person|
-      puts "Currently serving #{person}."
+      puts "Currently serving #{other_deli.shift()}."
       end
   else
       puts "There is nobody waiting to be served!"
