@@ -11,7 +11,6 @@ i = 0
        puts "The line is currently: " + katz_deli.join(" ")
   end 
 end
-
 #-------------------
 def take_a_number(katz_deli, person)
   if (katz_deli.length == 0 )
