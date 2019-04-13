@@ -28,7 +28,6 @@ katz_deli = []
   if (other_deli.length == 0)
       puts "There is nobody waiting to be served!"
   else
-      next_up = other_deli.shift()
       puts "Currently serving #{other_deli.shift()}."
       end
   end
