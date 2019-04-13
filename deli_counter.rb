@@ -30,6 +30,6 @@ katz_deli = []
   else
       other_deli.each do |person|
       puts "Currently serving #{other_deli.shift()}."
-  end
+      end
   end
 end
